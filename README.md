@@ -64,7 +64,7 @@ python generate_image_variations.py
 
 ## License
 
-We allow use of our code under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license. The code is released for academic research use only.
+We license our code under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). The code is released for academic research use only.
 
 ## Acknowledgements
 
