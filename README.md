@@ -61,3 +61,24 @@ Run the following file to generate variations of input set of face images along 
 ```
 python generate_image_variations.py
 ```
+
+## License
+
+
+
+## Acknowledgements
+
+
+
+## Citation
+
+If helpful, please consider citing us as follows:
+
+```
+@article{roygaga2023subjective,
+  title={Subjective Face Transform using Human First Impressions},
+  author={Roygaga, Chaitanya and Krinsky, Joshua and Zhang, Kai and Kwok, Kenny and Bharati, Aparna},
+  journal={arXiv preprint arXiv:2309.15381},
+  year={2023}
+}
+```
