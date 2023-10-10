@@ -64,7 +64,7 @@ python generate_image_variations.py
 
 ## License
 
-
+We allow use of our code under the [CC BY-NC 4.0 DEED](https://creativecommons.org/licenses/by-nc/4.0/deed.en) license.
 
 ## Acknowledgements
 
