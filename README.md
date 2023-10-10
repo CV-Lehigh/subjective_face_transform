@@ -8,11 +8,13 @@ Abstract: Humans tend to form quick subjective first impressions of non-physical
 
 ## Download and set-up environment
 
+```
 git clone https://github.com/CV-Lehigh/subjective_face_transform.git
 
 cd subjective_face_transform
 
 conda env create -f environment.yml
+```
 
 ## Dependencies
 
