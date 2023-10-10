@@ -13,3 +13,9 @@ git clone https://github.com/CV-Lehigh/subjective_face_transform.git
 cd subjective_face_transform
 
 conda env create -f environment.yml
+
+## Dependencies
+
+#### First Impression Prediction Models
+
+Here is a list of our trained first impression prediction models. Empirically Chosen (EC) models for each attribute are as per results presented in the paper.
