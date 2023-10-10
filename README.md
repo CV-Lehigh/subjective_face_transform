@@ -68,7 +68,9 @@ We license our code under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 ## Acknowledgements
 
+We implement the [HyperInverter](https://github.com/VinAIResearch/HyperInverter) setup for [projection and inversion]() of face images in the GAN latent space. The [first impression prediction]() models are trained based on directives mentioned in the paper [Convolutional Neural Networks for Subjective Face Attributes](https://github.com/mel-2445/Predicting-First-Impressions). We build upon the initial code of [StyleFlow](https://github.com/RameenAbdal/StyleFlow) to create a [mapping model]() between the input faces and the corresponding subjective scores of attributes like Attractiveness, Dominance, and Trustworthiness.
 
+We also thank all of the contributions that came prior to the above mentioned work. Notable mentions are [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch), [e4e](https://github.com/omertov/encoder4editing), and [torchdiffeq](https://github.com/rtqichen/torchdiffeq).
 
 ## Citation
 
