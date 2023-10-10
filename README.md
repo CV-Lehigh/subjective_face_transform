@@ -20,8 +20,8 @@ conda env create -f environment.yml
 
 Here is a list of our trained first impression prediction models, with a ResNet-18 base architecture. Empirically Chosen (EC) models for each attribute are as per results presented in the paper.
 
-Attractiveness: AFLW, AFLW &#8594 (fine-tune) OMI
+Attractiveness: AFLW, AFLW &#8594; (fine-tune) OMI
 
-Dominance: AFLW, AFLW &#8594 (fine-tune) OMI
+Dominance: AFLW, AFLW &#8594; (fine-tune) OMI
 
-Trustworthiness: SCUT-FBP5500, SCUT-FBP5500 &#8594 (fine-tune) OMI
+Trustworthiness: SCUT-FBP5500, SCUT-FBP5500 &#8594; (fine-tune) OMI
