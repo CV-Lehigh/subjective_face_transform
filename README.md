@@ -18,6 +18,10 @@ conda env create -f environment.yml
 
 Create a folder *pretrained_dependencies/* to add all pretrained model dependencies.
 
+#### Inversion Dependencies
+
+Here is a list of all pretrained models required to *project and invert* face images using the inversion setup. Please download and add all relevant models to the path *pretrained_dependencies/image_inversion_models*.
+
 Face landmarks model: [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
 
 Pretrained HyperInverter checkpoint: [hyper_inverter_e4e_ffhq_encode_large.pt](https://drive.google.com/file/d/1JxKAHk-u4joVq1NmDsVcR_ov-cNWFBSu/view)
@@ -27,10 +31,6 @@ Pretrained StyleGAN2-ADA: [stylegan2-ada-ffhq.pkl](https://nvlabs-fi-cdn.nvidia.
 w-space encoder: [w_encoder_e4e_ffhq_encode.pt](https://drive.google.com/file/d/1uVqnXDBujAv4a4TU99SFIwKeAG-H6pzp/view)
 
 irse50 encoder checkpoint: [model_ir_se50.pth](https://drive.google.com/file/d/1KW7bjndL3QG3sxBbZxreGHigcCCpsDgn/view)
-
-#### Inversion Dependencies
-
-Here is a list of all pretrained models required to *project and invert* face images using the inversion setup. Please download and add all relevant models to the path *pretrained_dependencies/image_inversion_models*.
 
 #### First Impression Prediction Models
 
