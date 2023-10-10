@@ -51,3 +51,11 @@ Attractiveness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
 Dominance: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
 
 Trustworthiness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
+
+## Generating Face Variations
+
+Run the following file to generate variations of input set of face images along the score range of *{-0.2,0.2}*, with generation of corresponding attribute predictions.
+
+```
+python generate_image_variations.py
+```
