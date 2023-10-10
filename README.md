@@ -16,22 +16,24 @@ conda env create -f environment.yml
 
 ## Dependencies
 
+Please create a folder *pretrained_dependencies/* to add all pretrained model dependencies.
+
 #### First Impression Prediction Models
 
 Here is a list of our trained first impression prediction models, with a ResNet-18 base architecture. Training datasets for each model are presented. Empirically Chosen {EC} model for each attribute is as per results shown in the paper.
 
-Attractiveness: AFLW, AFLW &#8594; (fine-tune) OMI {EC}
+Attractiveness: [AFLW](), [AFLW &#8594; (fine-tune) OMI {EC}]()
 
-Dominance: AFLW, AFLW &#8594; (fine-tune) OMI {EC}
+Dominance: [AFLW](), [AFLW &#8594; (fine-tune) OMI {EC}]()
 
-Trustworthiness: SCUT-FBP5500, SCUT-FBP5500 &#8594; (fine-tune) OMI {EC}
+Trustworthiness: [SCUT-FBP5500](), [SCUT-FBP5500 &#8594; (fine-tune) OMI {EC}]()
 
 #### Mapping Models
 
-Here is a list of our trained image*-->score mapping models, trained using the proposed pipeline. Training datasets for each model are presented. Empirically Chosen {EC} models for each attribute is as per results shown in the paper.
+Here is a list of our trained image⟷score mapping models, trained using the proposed pipeline. Training datasets for each model are presented. Empirically Chosen {EC} models for each attribute is as per results shown in the paper.
 
-Attractiveness: FFHQ, StyleGAN2-ADA generated, CelebAMask-HQ {EC}
+Attractiveness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
 
-Dominance: FFHQ, StyleGAN2-ADA generated, CelebAMask-HQ {EC}
+Dominance: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
 
-Trustworthiness: FFHQ, StyleGAN2-ADA generated, CelebAMask-HQ {EC}
+Trustworthiness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
