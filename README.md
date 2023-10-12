@@ -38,21 +38,21 @@ irse50 encoder checkpoint: [model_ir_se50.pth](https://drive.google.com/file/d/1
 
 Here is a list of our trained first impression prediction models, with a ResNet-18 base architecture. Training datasets for each model are presented. Empirically Chosen {EC} model for each attribute is as per results shown in the paper. Please download and add all relevant models to the path *pretrained_dependencies/subjective_models*.
 
-Attractiveness: [AFLW](), [AFLW &#8594; (fine-tune) OMI {EC}]()
+Attractiveness: [SCUT-FBP5500](https://drive.google.com/file/d/1EDXEzizBVljGYKohMyve-ILEgkfdh3lw/view?usp=sharing), [SCUT-FBP5500 &#8594; (fine-tune) OMI {EC}](https://drive.google.com/file/d/1b8zXDyX5hpblq5HQ4VB4dEj6DwSQha3L/view?usp=sharing)
 
-Dominance: [AFLW](), [AFLW &#8594; (fine-tune) OMI {EC}]()
+Dominance: [AFLW](https://drive.google.com/file/d/1rDiNTEZ0PmHaCBFUzPYy8wOD-J59DLrC/view?usp=sharing), [AFLW &#8594; (fine-tune) OMI {EC}](https://drive.google.com/file/d/1nN1JKouM0fe7NzQ5Xgv0fx0mUBFd05TJ/view?usp=sharing)
 
-Trustworthiness: [SCUT-FBP5500](), [SCUT-FBP5500 &#8594; (fine-tune) OMI {EC}]()
+Trustworthiness: [AFLW](https://drive.google.com/file/d/1FomGr7TGs8EZ9Bo5TZkyKpfbNHfjPqRQ/view?usp=sharing), [AFLW &#8594; (fine-tune) OMI {EC}](https://drive.google.com/file/d/1Gvyrehb_nDmMiPh9CmL2_PqZ1EdFqpeb/view?usp=sharing)
 
 #### Mapping Models
 
 Here is a list of our trained image⟷score mapping models, trained using the proposed pipeline. Training datasets for each model are presented. Empirically Chosen {EC} model for each attribute is as per results shown in the paper. Please download and add all relevant models to the path *pretrained_dependencies/mapping_models*.
 
-Attractiveness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
+Attractiveness: [FFHQ](https://drive.google.com/file/d/1Hrq5Ub9BVRbmAXaN1fSKmjpTv90WaI_j/view?usp=sharing), [StyleGAN2-ADA generated](https://drive.google.com/file/d/1mMbKZUbrxNYWOxcxmh476-NVu41-ybKr/view?usp=sharing), [CelebAMask-HQ {EC}](https://drive.google.com/file/d/1CcUs5jP9PYvbnmxG-vLYD_G3b0JWm7x5/view?usp=sharing)
 
-Dominance: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
+Dominance: [FFHQ](https://drive.google.com/file/d/1xKXEHpeedemqyfFJF59J8oMj39W6Jh8G/view?usp=sharing), [StyleGAN2-ADA generated](https://drive.google.com/file/d/1lqT6YBxaK_hFTY7O8MVxTRblyZzKry3-/view?usp=sharing), [CelebAMask-HQ {EC}](https://drive.google.com/file/d/1VXec2WyleoV12M4MDkoEFoFLwbtXpSoU/view?usp=sharing)
 
-Trustworthiness: [FFHQ](), [StyleGAN2-ADA generated](), [CelebAMask-HQ {EC}]()
+Trustworthiness: [FFHQ](https://drive.google.com/file/d/1jlWOuB5M4kLSk8LCAHaCMRui9PKwEk65/view?usp=sharing), [StyleGAN2-ADA generated](https://drive.google.com/file/d/1OdZGlMzFWIyGCEjLWzwfBJjIF2iN5npo/view?usp=sharing), [CelebAMask-HQ {EC}](https://drive.google.com/file/d/1WL-zBNBPEaJuvKwxjk72N4ktNQ4F05Nb/view?usp=sharing)
 
 ## Generating Face Variations
 
