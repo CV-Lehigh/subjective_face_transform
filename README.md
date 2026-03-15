@@ -4,7 +4,14 @@ Paper link: https://arxiv.org/abs/2309.15381
 
 Abstract: Humans tend to form quick subjective first impressions of non-physical attributes when seeing someone's face, such as perceived trustworthiness or attractiveness. To understand what variations in a face lead to different subjective impressions, this work uses generative models to find semantically meaningful edits to a face image that change perceived attributes. Unlike prior work that relied on statistical manipulation in feature space, our end-to-end framework considers trade-offs between preserving identity and changing perceptual attributes. It maps identity-preserving latent space directions to changes in attribute scores, enabling transformation of any input face along an attribute axis according to a target change. We train on real and synthetic faces, evaluate for in-domain and out-of-domain images using predictive models and human ratings, demonstrating the generalizability of our approach. Ultimately, such a framework can be used to understand and explain biases in subjective interpretation of faces that are not dependent on the identity.
 
-![teaser](teaser.png)
+### Dominance, Trustworthiness, and Attractiveness
+<p align="center">
+  <img src="SM_Celeb_OMI_Dom.jpg" width="32%" title="Dominance" />
+  <img src="SM_Celeb_OMI_Trust.jpg" width="32%" title="Trustworthiness" /> 
+  <img src="SM_Celeb_OMI_Attract.jpg" width="32%" title="Attractiveness" />
+</p>
+
+> **Note:** Traversals range from -0.4 to +0.4 relative to the original/inverted latent code.
 
 ## Download and set-up environment
 
