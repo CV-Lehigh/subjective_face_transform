@@ -80,12 +80,16 @@ if __name__ == '__main__':
     parser.add_argument('--gpu_id', type=int, default=0, help='Current GPU for processing')
     args = parser.parse_args()
 
-    device = torch.device(f'cuda:{args.gpu_id}' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
     for change_score in ['+0.1', '+0.2', '-0.1', '-0.2']:
         model = flow.cnf(512, args.dims, args.dim_ctx, args.num_blocks)
         model = model.to(device)
-        weight = torch.load(f'{args.mapping_model_path}/{args.attribute}_mapping_model_{args.mapping_model_train_dataset}.pt')
-        model.load_state_dict(weight['state_dict'], strict = False)
+        
+        ckpt_path = f'{args.mapping_model_path}/{args.attribute}_mapping_model_{args.mapping_model_train_dataset}.pt'
+        torch.serialization.add_safe_globals([argparse.Namespace])
+        weight = torch.load(ckpt_path, map_location='cpu', weights_only=True)
+        model.load_state_dict(weight['state_dict'], strict=False)
+        
         dataset = WPlayDataset(w_file=f'{args.w_latent_file_path}/w_save.npy', attribute_file=f'{args.prediction_file_path}/input_{args.attribute}.pkl', increment=float(change_score))
         modify_vectors(model, dataset, change_score, args.attribute, args.save_path, args.batch_size, device)
