@@ -9,7 +9,7 @@ import sys
 
 ''' User-defined '''
 CURRENT_DIR = os.getcwd()
-ORIG_IMAGE_PATH = fr"sample_images_FFHQ" # Provide path to raw input images (folder can have 1 or more images)
+ORIG_IMAGE_PATH = fr"sample_images" # Provide path to raw input images (folder can have 1 or more images)
 ATTRIBUTE = "Attractiveness" # options: Attractiveness, Dominance, Trustworthiness
 
 ###############################################################################################################################################
