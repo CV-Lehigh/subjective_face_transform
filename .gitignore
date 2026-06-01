@@ -1,0 +1,27 @@
+# Machine Learning Models and Weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.h5
+*.tflite
+*.pkl
+*.safetensors
+
+# Datasets and Large Data Directories
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.npy
+*.npz
+
+# Local Environments and Package Backups
+.venv/
+venv/
+env/
+*.tar.gz
+*.zip
