@@ -9,10 +9,14 @@
 *.tflite
 *.pkl
 *.safetensors
+*.dat
 
 # Datasets and Large Data Directories
 data/
 datasets/
+input_aligned/
+output/
+pretrained_dependencies/
 *.csv
 *.tsv
 *.jsonl

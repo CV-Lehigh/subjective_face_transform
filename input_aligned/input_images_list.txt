@@ -1,8 +1,0 @@
-input_aligned/images/176.jpg
-input_aligned/images/213.jpg
-input_aligned/images/274.jpg
-input_aligned/images/373.jpg
-input_aligned/images/713.jpg
-input_aligned/images/804.jpg
-input_aligned/images/837.jpg
-input_aligned/images/991.jpg
