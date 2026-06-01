@@ -29,3 +29,13 @@ venv/
 env/
 *.tar.gz
 *.zip
+
+# Exceptions for specific subfolders
+!first_impression_prediction/
+!first_impression_prediction/**
+!image_inversion/
+!image_inversion/**
+!mapping_model/
+!mapping_model/**
+!sample_images/
+!sample_images/**
